@@ -25,3 +25,5 @@ function titleCase(str) {
   
   return finalStr;
 }
+
+// titleCase("HERE IS MY HANDLE HERE IS MY SPOUT") should return the string Here Is My Handle Here Is My Spout
