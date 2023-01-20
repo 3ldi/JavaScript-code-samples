@@ -5,9 +5,9 @@
 function mergeArr(arr1, arr2, n) {
 
   let newArr = [];
-  
+
   // Split the second array on position "n" and concat arr1 in between the 2 pieces
   newArr = arr2.slice(0, n).concat(arr1).concat(arr2.slice(n));
-  
+
   return newArr;
 }

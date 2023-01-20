@@ -6,11 +6,11 @@ function chunkArrayInGroups(arr, size) {
   let newArr = [];
   let chunk = [];
 
-  for (let i = 0; i < arr.length; i += size){
+  for (let i = 0; i < arr.length; i += size) {
     chunk = arr.slice(i, i + size)
     newArr.push([...chunk]);
   }
- 
+
   return newArr;
 }
 
